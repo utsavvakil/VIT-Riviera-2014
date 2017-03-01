@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="25dp"
+    android:background="@drawable/peoplebackground" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ViewFlipper
+            android:id="@+id/vfDay2Flipper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <ImageView android:id="@+id/ivSivamani"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sivamani" />
+            
+            <ImageView
+                android:id = "@+id/ivStephen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stephendevassy" />
+            
+            <ImageView
+                android:id = "@+id/ivHaricharan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/haricharan" />
+            
+            <ImageView
+                android:id = "@+id/ivSwethaMohan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/swethamohan" />
+            
+             <ImageView android:id="@+id/ivSreeram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sreeram" />
+            
+            <ImageView
+                android:id = "@+id/ivYesudas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yesudas" />
+            
+        </ViewFlipper>
+    </LinearLayout>
+
+</LinearLayout>

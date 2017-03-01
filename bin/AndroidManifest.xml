@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vit.riviera14"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".SearchResultsActivity" />
+        
+        <activity
+            android:name="com.vit.riviera14.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vit.riviera14.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vit.riviera14.Culturals"
+            android:label="Culturals"
+            android:parentActivityName="com.vit.riviera14.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vit.riviera14.Sports"
+            android:label="Sports"
+            android:parentActivityName="com.vit.riviera14.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vit.riviera14.Registration"
+            android:label="Registration"
+            android:parentActivityName="com.vit.riviera14.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vit.riviera14.Proshows"
+            android:label="Proshows"
+            android:parentActivityName="com.vit.riviera14.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vit.riviera14.Sponsors"
+            android:label="Sponsors"
+            android:parentActivityName="com.vit.riviera14.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vit.riviera14.Contact"
+            android:label="Contact"
+            android:parentActivityName="com.vit.riviera14.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".SearchResultsActivity"
+            android:label="Search Results"
+            android:screenOrientation="portrait" 
+            android:parentActivityName="com.vit.riviera14.Culturals"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.vit.riviera14.SportsSearch"
+            android:label="Search Results"
+            android:parentActivityName="com.vit.riviera14.Sports"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name="com.vit.riviera14.PrivacyPolicy"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.vit.riviera14.HomeActivity"
+            android:label="Privacy Policy" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/peoplebackground"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvVIT1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="VIT UNIVERSITY"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tvVIT2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Vellore"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tvVIT3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Tamil Nadu 632014\n"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/tVName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Saif Ahmed : "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/tvPhone1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="phone"
+                        android:text="+91 8870452809\n"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/tVName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shashwat Sahay : "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/tvPhone2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="phone"
+                        android:text="+91 8144505037\n"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/tVName3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sangkrutiya T P : "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/tvPhone3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="phone"
+                        android:text="+91 8870521089\n"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email : "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/tvEmailID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="email"
+                        android:text="info@vitriviera.com\n\n"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ivwww"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:src="@drawable/www" />
+
+                    <ImageView
+                        android:id="@+id/ivfacebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="15dp"
+                        android:layout_toRightOf="@id/ivwww"
+                        android:src="@drawable/facebook" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

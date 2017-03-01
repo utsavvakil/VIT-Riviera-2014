@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Riviera\'14</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="title_section1">6th Feb</string>
+    <string name="title_section2">7th Feb</string>
+    <string name="title_section3">8th Feb</string>
+    <string name="title_section4">9th Feb</string>
+    <string name="action_search">Search</string>
+    <string name ="search_title">Search</string>
+    <string name = "search_hint">Enter the Event Name</string>
+   
+</resources>
